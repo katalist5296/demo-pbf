@@ -1,0 +1,16 @@
+{
+  "name": "demo-pbf",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npm i",
+    "test": "node test/demo.js",
+    "testweb": "node test/demo-web/server.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "express": "^4.17.1",
+    "node-addon-api": "^3.0.2"
+  }
+}
